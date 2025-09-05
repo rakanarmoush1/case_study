@@ -16,10 +16,12 @@ Pretrained fraud detection model with a simple CLI to score your own transaction
 - `final.ipynb`: Final version of the notebook
 - `requirements.txt`, `.gitignore`, `README.md`
 
-## Setup
+## Setup (Python 3.12.11)
+This project uses Python 3.12.11.
 ```bash
-python -m venv .venv
+python3.12 -m venv .venv
 source .venv/bin/activate  # Windows: .venv\\Scripts\\activate
+python --version  # should be 3.12.11
 pip install -U pip
 pip install -r requirements.txt
 ```
@@ -27,7 +29,7 @@ pip install -r requirements.txt
 If LightGBM fails to build from source on your platform, consider installing a prebuilt wheel or using conda:
 ```bash
 # Example: conda
-conda create -n fraud python=3.10 -y
+conda create -n fraud python=3.12.11 -y
 conda activate fraud
 pip install -r requirements.txt
 ```
