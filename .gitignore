@@ -32,8 +32,8 @@ pip-delete-this-directory.txt
 *.h5
 *.hdf5
 *.csv
-!sample_input.csv
-fraud.csv
+!data/
+!data/*.csv
 
 # Logs
 *.log
