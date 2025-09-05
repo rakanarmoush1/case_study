@@ -1,0 +1,40 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+!fraud.ipynb
+!fraud_refactored.ipynb
+
+# Data & artifacts
+*.joblib
+!model.joblib
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.csv
+!sample_input.csv
+fraud.csv
+
+# Logs
+*.log
+
+
