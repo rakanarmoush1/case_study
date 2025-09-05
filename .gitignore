@@ -20,6 +20,7 @@ pip-delete-this-directory.txt
 *.ipynb
 !fraud.ipynb
 !fraud_refactored.ipynb
+!final.ipynb
 
 # Data & artifacts
 *.joblib
