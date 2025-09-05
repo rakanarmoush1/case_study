@@ -1,4 +1,4 @@
-# Fraud Detection - Inference CLI
+# Fraud Detection
 
 Pretrained fraud detection model with a simple CLI to score your own transaction data. The final, readable notebook is `final.ipynb` at the project root. Inference is performed by `src/predict_fraud.py` using the same cleaning and feature engineering defined in `src/fraud_features.py`.
 
